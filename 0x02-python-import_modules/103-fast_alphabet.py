@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-#A library module called string
-from string import ascii_uppercase
+from string import ascii_uppercase#import string module with uppercase function
 print(ascii_uppercase)
