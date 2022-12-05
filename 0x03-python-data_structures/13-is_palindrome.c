@@ -3,7 +3,7 @@
 /**
  * rev_list - reverses a linked list
  * @head: pointer to the first node in the list
- * Return: returns nothings
+ * Return: returns nothing
  */
 void rev_list(listint_t **head)
 {
