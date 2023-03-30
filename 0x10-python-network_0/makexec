@@ -1,0 +1,4 @@
+#!/bin/bash
+#make the specified file executable.
+
+chmod u+x "$1"
