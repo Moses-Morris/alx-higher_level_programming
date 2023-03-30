@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" The function find_peak """
+"""Defines a peak-finding algorithm."""
+
 
 def find_peak(list_of_integers):
     """Return a peak in a list of unsorted integers."""
@@ -20,3 +21,4 @@ def find_peak(list_of_integers):
         return find_peak(list_of_integers[:mid])
     else:
         return find_peak(list_of_integers[mid + 1:])
+
