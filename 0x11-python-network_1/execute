@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script converst the file as first argument to executable.
+
+chmod u+x "$1"
