@@ -1,5 +1,4 @@
-#!/usr/bin/node
-// A script that prints the title of a Star Wars movie 
+#!/usr/bin/node 
 const request = require('request');
 const url = 'https://swapi-api.alx-tools.com/api/films/' + process.argv[2];
 request(url, (err, res, body) => {
