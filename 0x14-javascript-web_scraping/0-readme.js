@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//A script that reads from a file.
+// A script that reads from a file.
 
 const fs = require('fs');
 const fileName = process.argv[2];

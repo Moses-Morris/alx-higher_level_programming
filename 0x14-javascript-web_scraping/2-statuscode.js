@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//A script that display the status code of a GET request.
+// A script that display the status code of a GET request.
 
 const request = require('request');
 const Request_url = process.argv[2];
